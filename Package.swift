@@ -24,7 +24,7 @@ let package = Package(
 	targets: [
 		Target(name: "MySQL", dependencies: [.Target(name: "mysqlclient")]),
 		Target(name: "mysqlclient"),
- +		Target(name: "MySQLTests", dependencies: [.Target(name: "MySQL")])
+ 		Target(name: "MySQLTests", dependencies: [.Target(name: "MySQL")])
 	],
 	dependencies: [
 		
